@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #96B6C5;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  text-decoration: underline;
+  color: #FFD9B7;
+  font-size: 1.5rem;
+}
