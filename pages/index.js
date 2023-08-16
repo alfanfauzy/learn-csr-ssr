@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 
+/**
+ * When access CSR page will be show the page directly and the static data will directly show to, but for the fetch data will be delayed before show all data
+ */
+
 const CSRPage = () => {
   const [dataUsers, setDataUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

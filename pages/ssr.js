@@ -1,5 +1,9 @@
 import Layout from '../components/layout';
 
+/**
+ * When access SSR will be delayed in second time before the page load
+ */
+
 const SSRPage = ({ data }) => {
   return (
     <Layout>
